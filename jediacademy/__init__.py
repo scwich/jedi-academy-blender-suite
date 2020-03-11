@@ -85,7 +85,6 @@ def register():
 	bpy.types.TOPBAR_MT_file_export.append(JAAseExport.menu_func)
 	bpy.types.TOPBAR_MT_file_export.append(JAPatchExport.menu_func)
 	bpy.types.TOPBAR_MT_file_export.append(JARoffExport.menu_func)
-	bpy.types.TOPBAR_MT_file_export.append(JAMd3Export.menu_func)
 	
 	bpy.types.TOPBAR_MT_file_import.append(JAAseImport.menu_func)
 	bpy.types.TOPBAR_MT_file_import.append(JARoffImport.menu_func)
